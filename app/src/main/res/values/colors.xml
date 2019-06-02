@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#3CCC00</color>
+    <color name="colorPrimary">#7ED957</color>
+    <color name="tabIconColor">#68CD3D</color>
+    <color name="colorAccent">#6CDF3A</color>
+    <color name="bottomTabBarInactiveTextColor">#6D6D6D</color>
+</resources>

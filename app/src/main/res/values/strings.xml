@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">nudge</string>
+    <string name="login_preference">com.example.nudgerewriten.login_preference</string>
+    <string name="login_status">com.example.nudgerewriten.login_status</string>
+    <string name="enter_your_licence_code">Enter your licence code</string>
+    <string name="click_here_to_get_licence">Click here to get licence</string>
+    <string name="title_activity_visits">VisitsActivity</string>
+</resources>

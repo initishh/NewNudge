@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:background="@drawable/drawable_radial_gradient_primary_to_primary_dark"
+    android:id="@+id/loginForm">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_enter_license_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/enter_your_licence_code"
+            android:textColor="@android:color/white"
+            android:textAlignment="gravity"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/edit_text_license_code"
+            android:layout_width="260dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/drawable_rounded_corner" />
+
+        <TextView
+            android:id="@+id/text_view_click_to_get_license"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/click_here_to_get_licence"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        >
+
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_tab_icon_color_24dp"
+            android:title="Home"
+            app:showAsAction="always|withText"
+            />
+        <item
+            android:id="@+id/farmer"
+            android:icon="@drawable/ic_contacts_tab_icon_color_24dp"
+            android:title="Farmer List"
+            app:showAsAction="always|withText"
+            />
+        <item
+            android:id="@+id/c_m"
+            android:icon="@drawable/ic_local_florist_tab_icon_color_24dp"
+            android:title="Crop&amp;Market"
+            app:showAsAction="always|withText"
+            />
+        <item
+            android:id="@+id/service"
+            android:icon="@drawable/ic_settings_tab_icon_color_24dp"
+            android:title="Service"
+            app:showAsAction="always|withText"
+            />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_tab_icon_color_24dp"
+            android:title="Profile"
+            app:showAsAction="always|withText"
+            />
+
+</menu>

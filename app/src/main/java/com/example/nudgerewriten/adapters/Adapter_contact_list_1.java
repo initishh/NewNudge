@@ -49,7 +49,7 @@ public class Adapter_contact_list_1 extends RecyclerView.Adapter<Adapter_contact
 
         }
         adapter_contact_list_1_viewHolder.contact_list_recycler.setAdapter(new Adapter_contact_list_2((cardList.toArray(new String[(cardList.size())]))));
-        adapter_contact_list_1_viewHolder.contact_list_alphabet.setText(String.valueOf((char)(65+i)));
+        adapter_contact_list_1_viewHolder.contact_list_alphabet.setText(String.valueOf(cardList.get(0).charAt(0)));
 
     }
 

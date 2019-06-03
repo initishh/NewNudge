@@ -2,11 +2,9 @@ package com.example.nudgerewriten.adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,8 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.nudgerewriten.R;
-import com.example.nudgerewriten.activities.CropTimeLineActivity;
-import com.squareup.picasso.Picasso;
+import com.example.nudgerewriten.activities.CropTimeline;
 
 import java.util.List;
 
@@ -48,7 +45,7 @@ public class ScheduledCropsAdapter extends RecyclerView.Adapter<ScheduledCropsAd
         myCustomViewHolder.cropId.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                context.startActivity(new Intent(context, CropTimeLineActivity.class));
+                context.startActivity(new Intent(context, CropTimeline.class));
             }
         });
 

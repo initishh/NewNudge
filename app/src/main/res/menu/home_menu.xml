@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_main_setting"
+        android:id="@+id/notifs"
         android:icon="@drawable/ic_baseline_notifications_none_24px"
         android:orderInCategory="100"
         app:showAsAction="always"
         android:title="Notification" />
 
     <item
-        android:id="@+id/menu_main_setting2"
+        android:id="@+id/cart"
         android:icon="@drawable/ic_baseline_local_grocery_store_24px"
         android:orderInCategory="200"
         app:showAsAction="always"

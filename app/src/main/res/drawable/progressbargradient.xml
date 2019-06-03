@@ -4,8 +4,7 @@
     <item android:bottom="7dp" android:end="79dp">
         <shape>
             <solid
-                android:color="#53E615"
-                />
+                android:color="#53E615" />
         </shape>
     </item>
     <item android:top="7dp" android:end="79dp" >

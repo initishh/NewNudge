@@ -25,7 +25,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/roboto_regular"
         android:text="Product1"
-        android:textSize="8sp"
+        android:textSize="10sp"
         app:layout_constraintEnd_toEndOf="@+id/prod_image"
         app:layout_constraintStart_toStartOf="@+id/prod_image"
         app:layout_constraintTop_toBottomOf="@+id/prod_image" />

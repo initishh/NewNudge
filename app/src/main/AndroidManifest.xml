@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:label">
-        <activity android:name=".activities.CropTimeLineActivity"></activity>
+        <activity android:name=".activities.CropTimeline"></activity>
         <activity android:name=".activities.ScheduleCropActivity" />
         <activity
             android:name=".activities.FarmerProfileActivity"
@@ -35,6 +35,7 @@
             android:name=".activities.LoginActivity"
             android:theme="@style/AppTheme" />
         <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.SelectedCropActity" />
     </application>
 
 </manifest>

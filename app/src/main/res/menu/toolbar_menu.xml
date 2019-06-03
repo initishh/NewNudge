@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--
+ <item
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:title="Search"
+     android:layout_margin="3dp"
+     android:icon="@drawable/ic_search_black_24dp"
+     android:id="@+id/search"
+     android:background="#FFFF"
+     app:queryHint=" Search for Crops... "
+     app:iconifiedByDefault="false"
+     app:actionViewClass="android.widget.SearchView" />
+-->
+</menu>

@@ -6,16 +6,46 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:showIn="@layout/fragment_farmerlist">
 
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/farmer_contact_recycler"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/farmerlist_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="?attr/colorPrimary"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+            app:layout_constraintBottom_toTopOf="@id/farmer_contact_recycler"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginBottom="24dp">
+
+                <android.support.v7.widget.SearchView
+                    android:id="@+id/farmerlist_searchview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:iconifiedByDefault="false"
+                    app:queryHint="@string/farmer_hint"
+                    />
+            </android.support.v7.widget.CardView>
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/farmer_contact_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/farmerlist_toolbar" />
 
     </android.support.constraint.ConstraintLayout>

@@ -8,7 +8,7 @@
 
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+        android:id="@+id/toolbar_farmer_add"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@drawable/gradient"
@@ -54,7 +54,7 @@
         android:textColor="@drawable/text_color"
         app:layout_constraintEnd_toStartOf="@+id/received_btn"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_farmer_add" />
 
     <Button
         android:id="@+id/received_btn"
@@ -68,7 +68,7 @@
         android:textColor="@drawable/text_color"
         app:layout_constraintEnd_toStartOf="@+id/delivered_btn"
         app:layout_constraintStart_toEndOf="@+id/order_btn"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_farmer_add" />
 
     <Button
         android:id="@+id/delivered_btn"
@@ -83,7 +83,7 @@
         android:textColor="@drawable/text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/received_btn"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_farmer_add" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/order_rcv"

@@ -2,15 +2,12 @@ package com.example.nudgerewriten.activities;
 
 import android.content.Intent;
 import android.os.Build;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
@@ -21,7 +18,6 @@ import android.widget.Toast;
 
 import com.example.nudgerewriten.R;
 import com.example.nudgerewriten.adapters.ScheduledCropsAdapter;
-import com.rhexgomez.typer.roboto.TyperRoboto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +44,7 @@ public class FarmerProfileActivity extends AppCompatActivity {
         }
 
         backBtn = findViewById(R.id.back_btn);
-        toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar_farmer_add);
 
         Crops.add("Tomato");
         Crops.add("Onions");
@@ -73,7 +69,7 @@ public class FarmerProfileActivity extends AppCompatActivity {
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem menuItem) {
-                if(menuItem.getItemId() == R.id.actions_edit) {
+                if(menuItem.getItemId() == R.id.actions_add) {
                     Toast.makeText(FarmerProfileActivity.this, "You are about to edit the contact.", Toast.LENGTH_SHORT).show();
                     return true;
                 } else if(menuItem.getItemId() == R.id.actions_delete) {

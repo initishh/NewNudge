@@ -1,5 +1,6 @@
 package com.example.nudgerewriten.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,6 +17,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.example.nudgerewriten.R;
+import com.example.nudgerewriten.activities.AddFarmerActivity;
 import com.example.nudgerewriten.adapters.Adapter_contact_list_1;
 
 import java.util.ArrayList;
@@ -43,7 +45,7 @@ public class FarmerListFragment extends Fragment {
         fabAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "Add the farmer.", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(v.getContext(), AddFarmerActivity.class));
             }
         });
 

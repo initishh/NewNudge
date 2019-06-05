@@ -4,12 +4,7 @@
 
     <item
         android:id="@+id/actions_add"
-        android:orderInCategory="100"
-        android:title="Edit Contact" />
-
-    <item
-        android:id="@+id/actions_delete"
-        android:orderInCategory="200"
-        android:title="Delete" />
+        android:icon="@drawable/ic_check_black_24dp"
+        app:showAsAction="always" />
 
 </menu>

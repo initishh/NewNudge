@@ -52,7 +52,7 @@
                     android:text="Kandhamal" />
 
                 <android.support.v7.widget.Toolbar
-                    android:id="@+id/toolbar"
+                    android:id="@+id/toolbar_farmer_add"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     android:layout_alignLeft="@+id/farmer_name"

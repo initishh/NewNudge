@@ -4,7 +4,7 @@
     android:layout_height="?attr/actionBarSize"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#37B403"
-    android:id="@+id/toolbar"
+    android:id="@+id/toolbar_farmer_add"
     android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
     android:orientation="vertical"

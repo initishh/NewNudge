@@ -1,7 +1,6 @@
 package com.example.nudgerewriten.activities;
 
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -18,12 +17,7 @@ import com.example.nudgerewriten.R;
 import org.qap.ctimelineview.TimelineRow;
 import org.qap.ctimelineview.TimelineViewAdapter;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.Locale;
 
 public class CropTimeline extends AppCompatActivity {
 
@@ -36,7 +30,7 @@ public class CropTimeline extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crop_timeline);
 
-        toolbar = findViewById(R.id.toolbar);
+        toolbar = findViewById(R.id.toolbar_farmer_add);
         backBtn = findViewById(R.id.back_btn1);
 
         backBtn.setOnClickListener(new View.OnClickListener() {

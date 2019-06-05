@@ -61,7 +61,7 @@ public class HomeFragment extends Fragment {
         orderId = getView().findViewById(R.id.order_id);
         visitId = getView().findViewById(R.id.visit_id);
 
-        toolbar = getView().findViewById(R.id.toolbar);
+        toolbar = getView().findViewById(R.id.toolbar_farmer_add);
 
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override

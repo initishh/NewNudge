@@ -30,7 +30,7 @@ public class VisitsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visits);
-        Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar_farmer_add);
 //        setSupportActionBar(toolbar);
 
         backBtn = findViewById(R.id.back_btn1);
